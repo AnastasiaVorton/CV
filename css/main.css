@@ -1,0 +1,251 @@
+body {
+    font-family: 'Palanquin', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: #310A31;
+}
+
+div, p, input, button {
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 1.6em;
+    line-height: 1.38em;
+}
+
+article {
+    margin: 0 auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #310A31;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.white {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.nav-list {
+    width: 810px;
+    float: none;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F4ECD6;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    display: inline-block;
+    padding-right: 56px;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 1;
+    top: 28px;
+}
+
+.f30px {
+    font-size: 30px;
+}
+
+.f35px {
+    font-size: 35px;
+}
+
+.f40px {
+    font-size: 40px;
+}
+
+.s49px {
+    size: 49px;
+}
+
+.s50px {
+    size: 50px;
+}
+
+.aligner {
+    text-align: center;
+}
+
+.photo-container {
+    width: 25%;
+    margin: auto;
+    align-content: center;
+}
+
+.photo {
+    float: left;
+    padding: 17%;
+    border-radius: 50%;
+    height: 218px;
+    width: 218px;
+
+}
+
+.text {
+    width: 50%;
+    margin: auto;
+}
+
+.main-text::selection {
+    background: #310A31;
+    color: white;
+}
+
+.button {
+    bottom: 0vh;
+    position: absolute;
+    left: 50%;
+    width: 121px;
+    margin-left: -60px;
+}
+
+.button i {
+    display: block;
+    position: relative;
+}
+
+.menu {
+    float: right;
+    margin: auto;
+    width: 25%;
+    font-size: 30px;
+    padding-right: 55px;
+}
+
+.ul-menu {
+    text-align: right;
+}
+
+.vertical-menu-item {
+    padding-bottom: 15px
+}
+
+.verticat-menu-item::selection {
+    background: #310A31;
+    color: white;
+}
+
+.skills {
+    padding-bottom: 64px;
+}
+
+.space {
+    padding: 11px;
+}
+
+.contact {
+    padding-left: 32%;
+    padding-bottom: 39px;
+    display: -webkit-box;
+}
+
+.contact-img {
+    width: 50px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.about-info-div {
+    padding-bottom: 53px;
+}
+
+.project {
+    padding-bottom: 29px;
+}
+
+.bio {
+    padding-bottom: 29px;
+}
+
+.bio1 {
+    padding-left: 10%;
+}
+
+.bio2 {
+    padding-left: 70%;
+}
+
+.bio3 {
+    padding-left: 35%;
+}
+
+.bio4 {
+    padding-left: 58%;
+}
+
+.bio5 {
+    padding-left: 5%;
+}
+
+.skills_article, .contacts, .about_me, .projects, .bio-article {
+    padding-top: 100px;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+}
+
+.button-skills {
+    bottom: auto;
+    margin-left: -81px;
+}
+
+.w162px {
+    width: 162px;
+}
+
+#home article {
+    height: 100vh;
+    display: flex;
+}
+
+#skills {
+    background-color: #F4ECD6;
+    padding-bottom: 100px;
+}
+
+#contacts {
+    background-color: #A7CAB1;
+    padding-bottom: 100px;
+}
+
+#about_me {
+    background-color: #88B7B5;
+    padding-bottom: 100px;
+}
+
+#projects {
+    background-color: #847996;
+    padding-bottom: 100px;
+}
+
+#bio {
+    background-color: #310A31;
+    padding-bottom: 100px;
+}
