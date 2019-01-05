@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Anastasia Reprintseva</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8 "/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="description" content="Anastasia Reprintseva's personal site: CV and contact info">
     <meta name="keywords" content="personal site, CV, résumé, Anastasia Reprintseva">
     <!-- Подключение стилей -->
@@ -12,7 +12,7 @@
 
 <body>
 
-<section id="home">
+<section class="section current" id="home">
     <article class="home">
         <div class="photo-container">
             <img class="photo" src="img/IMG_2300.jpg"></div>
@@ -22,37 +22,39 @@
         <div class="menu">
             <ul class="ul-menu no-list-style">
                 <li class="vertical-menu-item">
-                    <a href="#home">Home</a>
-                <li>
+                    <a class="animate-underline" href="#home">Home</a>
                 </li>
                 <li class="vertical-menu-item">
-                    <a href="#contacts">Contacts</a></li>
+                    <a class="animate-underline" href="#contacts">Contacts</a>
                 </li>
                 <li class="vertical-menu-item">
-                    <a href="#about_me">About me</a></li>
+                    <a class="animate-underline" href="#about_me">About me</a>
                 </li>
                 <li class="vertical-menu-item">
-                    <a href="#projects">Projects</a></li>
+                    <a class="animate-underline" href="#projects">Projects</a>
                 </li>
+
                 <li class="vertical-menu-item">
-                    <a href="#bio">Bio</a></li>
+                    <a class="animate-underline" href="#bio">Bio</a>
                 </li>
+
             </ul>
         </div>
-        <a class="button aligner f35px"><b>I know:</b><i class="fa fa-angle-down s49px"></i></a>
+        <!--<a class="button aligner f35px"><b>I know:</b><i class="fa fa-angle-down s49px"></i></a>-->
+        <a class="button aligner f35px"><b>I know:</b><img src="img/down-arrow.png" class="h40px"></a>
     </article>
 
 </section>
 
-<section id="skills">
+<section class="section" id="skills">
     <article class="skills_article">
         <ul class="nav-list f30px aligner" id="nav-list">
-            <li class="block"><a href="#home">Home</a>
+            <li class="block "><a class="animate-underline top-nav-a" href="#home">Home</a>
             <li>
-            <li class="block"><a href="#contacts">Contacts</a></li>
-            <li class="block"><a href="#about_me">About me</a></li>
-            <li class="block"><a href="#projects">Projects</a></li>
-            <li class="block"><a href="#bio">Bio</a></li>
+            <li class="block "><a class="animate-underline top-nav-a" href="#contacts">Contacts</a></li>
+            <li class="block "><a class="animate-underline top-nav-a" href="#about_me">About me</a></li>
+            <li class="block "><a class="animate-underline top-nav-a" href="#projects">Projects</a></li>
+            <li class="block "><a class="animate-underline top-nav-a" href="#bio">Bio</a></li>
         </ul>
         <p class="f35px center"><b>Skills:</b></p>
         <div class="skills center f35px">
@@ -66,11 +68,12 @@
 
             - Python - Java
         </div>
-        <a class="button button-skills aligner f35px w162px"><b>Contacts:</b><i class="fa fa-angle-down s49px"></i></a>
+        <a class="button button-skills aligner f35px w162px"><b>Contacts:</b><img src="img/down-arrow.png"
+                                                                                  class="h40px"></a>
     </article>
 </section>
 
-<section id="contacts">
+<section class="section" id="contacts">
     <article class="contacts">
         <div class="contact f35px">
             <img src="img/arroba.png" class="contact-img">
@@ -84,11 +87,12 @@
             <img src="img/github.png" class="contact-img">
             <div class="contact-text"><a href="https://github.com/AnastasiaVorton"> AnastasiaVorton</a></div>
         </div>
-        <a class="button button-skills aligner f35px w162px"><b>About me:</b><i class="fa fa-angle-down s49px"></i></a>
+        <a class="button button-skills aligner f35px w162px"><b>About me:</b><img src="img/down-arrow.png"
+                                                                                  class="h40px"></a>
     </article>
 </section>
 
-<section id="about_me">
+<section class="section" id="about_me">
     <article class="about_me">
         <div class="about-info-div center f35px">
             <b>Education:</b>
@@ -102,11 +106,12 @@
             <b>Work:</b>
             <div>- 2018: RockOutLoud - front-end developer</div>
         </div>
-        <a class="button button-skills aligner f35px w162px"><b>Projects:</b><i class="fa fa-angle-down s49px"></i></a>
+        <a class="button button-skills aligner f35px w162px"><b>Projects:</b><img src="img/down-arrow.png"
+                                                                                  class="h40px"></a>
     </article>
 </section>
 
-<section id="projects">
+<section class="section" id="projects">
     <article class="projects">
         <div class="center f35px white">
             <div class="project">- Transpiler for I language (Python)</div>
@@ -115,11 +120,12 @@
             <div class="project">- Music generation using NEAT (Python)</div>
             <div class="project">- Tourist route builder in SPB - VK Hackathon 2017 (VanillaJS)</div>
         </div>
-        <a class="button button-skills aligner f35px w162px white"><b>Bio:</b><i class="fa fa-angle-down s49px"></i></a>
+        <a class="button button-projects aligner f35px w50px white"><b>Bio:</b><img src="img/down-arrow-white.png"
+                                                                                    class="h40px"></a>
     </article>
 </section>
 
-<section id="bio">
+<section class="section" id="bio">
     <article class="bio-article">
         <div class="f35px white">
             <div class="bio bio1">- Do music in my free time</div>
@@ -130,14 +136,14 @@
                 positive team :)
             </div>
         </div>
-        <a class="button button-skills aligner f35px w162px white" href="#home"><b>To top:</b><i
-                class="fa fa-angle-up s49px"></i></a>
+        <a class="button button-skills-last aligner f35px white" href="#home"><b>To top:</b><img src="img/up-arrow.png"
+                                                                                                 class="h40px"></a>
     </article>
 </section>
 
 
 <script src="https://use.fontawesome.com/0279959ac4.js"></script>
-<script src="//code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>
