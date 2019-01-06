@@ -26,14 +26,18 @@ function navigationHandler() {
 
 
         $('.section').each(function () {
-            if ($(this).offset().top + $(this).height() > cutoff) {
+            if ($(this).offset().top + $(this).height() + 65 > cutoff) {
                 $('.section').removeClass('current');
                 $(this).addClass('current');
                 return false; // stops the iteration after the first one on screen
             }
         });
 
-        document.getElementById("nav-list").style.backgroundColor = getComputedStyle(document.getElementById(curID)).backgroundColor;
+        if (curID !== 'home') {
+            document.getElementById("nav-list").style.backgroundColor = getComputedStyle(document.getElementById(curID)).backgroundColor;
+        } else {
+            document.getElementById("nav-list").style.backgroundColor = '#F4ECD6';
+        }
 
     } else {
         header.classList.remove("sticky");
